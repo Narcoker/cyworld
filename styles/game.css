@@ -16,7 +16,6 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .wrapper__header{
