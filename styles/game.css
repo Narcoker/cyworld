@@ -93,3 +93,34 @@ body, html {
     width: 38px;
     height: 24px;
 }
+
+.lottotext{
+   width: 130px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFE400;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.lotto__text__number{
+    font-weight: 700;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.create{
+    width: 62px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
