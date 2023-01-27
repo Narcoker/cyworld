@@ -64,6 +64,8 @@
     width: 148px;
     height: 133px;
     background: gray;
+    background-image: url("../images/profile.jpg");
+    background-size: cover;
 }
 
 .left__body__header__line{
