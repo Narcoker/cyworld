@@ -5,6 +5,7 @@
 
     <title>Game</title>
     <link rel="stylesheet" href="./styles/game.css">
+    <script src="./game.js" defer></script>
 </head>
 
 <body>
@@ -19,10 +20,10 @@
         <div class="game__container">
             <img src="./images/word.png" alt="">
             <div class="game__title">끝말잇기</div>
-            <div class="game__subtitle">제시어 : <span id="word">코드캠프</span></div>
+            <div class="game__subtitle">제시어 : <span id="word">기차</span></div>
             <div class="word__text">
                 <input class="textbox" type="text" id="myword" placeholder="단어를 입력하세요">
-                <button class="search">입력</button>
+                <button class="search" id="search" onclick="startWord()">입력</button>
             </div>
             <div class="word__result" id="result">결과!</div>
         </div>
