@@ -20,3 +20,22 @@ const startWord = () => {
         document.getElementById("myword").value = "";
     }
 }
+
+const getLottoNumbers = () => {
+    let numbers = [];
+    for (let i = 0; i < 6; i++) {
+        while (true) {
+            let number = Math.ceil(Math.random() * 45);
+            if (!numbers.includes(number)) {
+                numbers.push(number);
+                break;
+            }
+        }
+    }
+
+    numbers.sort((a, b) => a - b);
+    for (let i = 0; i < 6; i++) {
+        document.getElementById(`lotto_number_${i + 1}`).innerText = numbers[i];
+    }
+
+}
